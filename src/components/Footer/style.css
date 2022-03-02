@@ -1,0 +1,35 @@
+footer {
+    margin-bottom: 30px;
+}
+.contact-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-area span {
+    color: rgb(84, 77, 194);
+}
+.contact-area h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 3rem;
+}
+.contact-area a {
+    font-size: 1.3rem;
+}
+.mail {
+    margin: 20px;
+}
+.mail-button {
+    background-color: rgb(75, 75, 224);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #FFF;
+}
+.mail-button:hover {
+    transition: all ease .5s;
+    color: #FFF;
+    background-color: rgb(42, 42, 194);
+}
