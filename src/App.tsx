@@ -1,7 +1,7 @@
 import './App.css'
-import Body from './components/Body';
 import Footer from './components/Footer';
 import Header from './components/Header';
+import RouteList from './RouteList';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <Body />
+      <RouteList />
       <Footer />
     </>
   );

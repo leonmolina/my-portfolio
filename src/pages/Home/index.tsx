@@ -1,9 +1,9 @@
 import { Container } from 'react-bootstrap';
 import './style.css';
 import picture from './images/leon-square.jpg';
-import Slide from '../partials/Slide';
+import Slide from '../../components/partials/Slide';
 
-const Body = () => {
+const Home = () => {
 
     return (
       <main>
@@ -19,12 +19,12 @@ const Body = () => {
                   <abbr title="LinkedIn" className='padding-right'>
                     <a target="_blank" href="https://www.linkedin.com/in/leonaguiar">LI</a>
                   </abbr>
-                  <abbr title="Instagram" className='padding-right'>
+                  {/* <abbr title="Instagram" className='padding-right'>
                     <a target="_blank" href="https://www.instagram.com/leonmolinaa">IG</a>
                   </abbr>
                   <abbr title="Twitter">
                     <a target="_blank" href="https://twitter.com/leonmolinaa">TW</a>
-                  </abbr>
+                  </abbr> */}
                 </div>
               </div>
               <div className="right-side">
@@ -40,4 +40,4 @@ const Body = () => {
     );
   }
   
-  export default Body;
+  export default Home;

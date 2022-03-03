@@ -12,11 +12,9 @@ const Header = () => {
               <img src={logo} alt="Leon Molina Logo" className='nav-logo--image mx-3' />
             </NavbarBrand>
             <Nav>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
               <NavLink className='mx-3'>Projects</NavLink>
               <NavLink className='mx-3'>About</NavLink>
-              <NavLink className='mx-3'>Contact</NavLink>
+              <a className='nav-link mx-3' href="#contact">Contact</a>
             </Nav>
           </Container>
         </Navbar>

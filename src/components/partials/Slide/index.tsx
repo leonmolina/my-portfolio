@@ -6,7 +6,7 @@ const Slide = () => {
 
     return (
       <>
-        <Carousel indicators={false} interval={8000} variant="dark" className="projects-area">
+        <Carousel indicators={false} interval={5000} variant="dark" className="projects-area">
             <CarouselItem>
                 <div className='projects-item'>
                     <a target="_blank" href="https://github.com/leonmolina/projeto-olx">
