@@ -1,4 +1,5 @@
-import {  Container, Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap';
+import {  Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Link, NavLink } from 'react-router-dom';
 import './style.css';
 import logo from './images/colored-logo.png';
 
@@ -9,11 +10,13 @@ const Header = () => {
         <Navbar>
           <Container className='navbar'>
             <NavbarBrand>
-              <img src={logo} alt="Leon Molina Logo" className='nav-logo--image mx-3' />
+              <Link to="/">
+                <img src={logo} alt="LM Logo" className='nav-logo--image mx-3' />
+              </Link>
             </NavbarBrand>
             <Nav>
-              <NavLink className='mx-3'>Projects</NavLink>
-              <NavLink className='mx-3'>About</NavLink>
+              <NavLink to="/projects" className='nav-link mx-3'>Projects</NavLink>
+              <NavLink to="/about" className='nav-link mx-3'>About</NavLink>
               <a className='nav-link mx-3' href="#contact">Contact</a>
             </Nav>
           </Container>
