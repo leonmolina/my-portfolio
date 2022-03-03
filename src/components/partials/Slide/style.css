@@ -21,7 +21,7 @@
 .projects-item img {
     width: 50%;
     border-radius: 10px;
-    box-shadow: 0 0 20px 0 #777;
+    border: 1px solid rgb(97, 137, 173);
 }
 .projects-item--description {
     display: flex;
@@ -39,4 +39,27 @@
 .projects-item--description h3 {
     font-size: 2rem;
     font-weight: 700;
+}
+@media screen and (max-width: 1024px) {
+    .projects-area {
+        margin: 10px 0;
+    }
+    .projects-item {
+        padding: 30px 0;
+    }
+    .projects-item a {
+        display: flex;
+        flex-direction: column;
+    }
+    .projects-item img {
+        width: 50%;
+    }
+    .projects-item--description {
+        margin-top: 20px;
+    }
+}
+@media screen and (max-width: 650px) {
+    .projects-item img {
+        width: 80%;
+    }
 }
