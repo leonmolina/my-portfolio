@@ -1,13 +1,13 @@
 .projects-area {
     margin: 40px 0;
-    border: 3px solid #666;
     border-radius: 10px;
     padding: 30px;
     height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 0 10px 0 #777;
+    box-shadow: 0 0 10px 0 rgb(87, 86, 86);
+    background-color: var(--background-secondary);
 }
 .projects-item a {
     width: 100%;
@@ -20,21 +20,24 @@
 }
 .projects-item img {
     width: 50%;
+    height: 100%;
     border-radius: 10px;
-    border: 1px solid rgb(97, 137, 173);
 }
 .projects-item--description {
     display: flex;
-    padding-left: 20px;
+    margin-left: 30px;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
     max-width: 300px;
+    background-color: var(--background-alt);
+    border-radius: 10px;
 }
 .projects-item--description h3, p {
-    color: #000;
+    color: var(--text-primary);
 }
 .projects-item--description h3 {
     font-size: 2rem;
@@ -56,6 +59,7 @@
     }
     .projects-item--description {
         margin-top: 20px;
+        margin-left: 0;
     }
 }
 @media screen and (max-width: 650px) {

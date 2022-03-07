@@ -1,11 +1,13 @@
 footer {
     margin-bottom: 30px;
+    margin-top: 30px;
 }
 .contact-area {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--text-primary);
 }
 .contact-area span {
     color: rgb(84, 77, 194);

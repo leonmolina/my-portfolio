@@ -26,7 +26,7 @@
     justify-content: space-between;
 }
 .navbar-nav a {
-    color: #000 !important;
+    color: var(--text-primary) !important;
 }
 .navbar-nav a:hover {
     color: rgb(42, 42, 194) !important;

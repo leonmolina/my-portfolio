@@ -12,13 +12,16 @@ code {
 }
 
 :root {
-  --background: #d3e9f7;
-  --text-primary: #000000;
+  --background: rgb(20, 20, 20);
+  --background-secondary: rgb(48, 45, 45);
+  --background-alt: rgb(68, 63, 63);
+  --text-primary: #FFF;
   --text-secondary: rgb(54, 63, 185);
 }
 
-[data-theme='dark'] {
-  --background: #000;
-  --text-primary: #FFF;
-  --text-secondary: #999;
-}
+/* :root {
+  --background: #d3e9f7;
+  --background-secondary: #bbd9ec;
+  --text-primary: #000000;
+  --text-secondary: rgb(54, 63, 185);
+} */
