@@ -1,6 +1,7 @@
 /* MAIN SECTION */
-.main-section {
+.main-section--projects {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     height: auto;

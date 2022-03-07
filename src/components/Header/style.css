@@ -1,6 +1,6 @@
 .navbar {
     height: 80px;
-    margin-top: 15px;
+    margin: 15px 0;
     background-color: inherit;
     display: flex;
     justify-content: center;
