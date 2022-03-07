@@ -30,8 +30,31 @@
     padding: 30px;
     height: 60%;
 }
-.content-description--buttons {
+.content-description--header {
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.project-content--description ul {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+.project-content--description ul li {
+    width: 50%;
+}
+.content-description--buttons {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+.content-description--buttons button {
+    width: 50%;
+}
+.content-description--buttons button:first-child {
+    margin-right: 20px;
 }

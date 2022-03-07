@@ -22,7 +22,7 @@ const Projects = () => {
 				image : './images/olxclone.png',
 				title: 'OLX Clone B7',
 				subtitle: 'Bla bla bla bla bla bla bla bla bla bla bla',
-				used: ['React', 'Bootstrap'],
+				used: ['React', 'Bootstrap', 'Typescript'],
 				socials: {
 					github: 'https://github.com/leonmolina/projeto-olx',
 					link: 'https://github.com/leonmolina/projeto-olx'
@@ -61,12 +61,6 @@ const Projects = () => {
 		];
 		setProjectList(pList);
 	}, [])
-
-
-
-
-
-
 
 	return (
 		<main>

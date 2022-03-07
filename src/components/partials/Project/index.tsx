@@ -35,7 +35,10 @@ const Project = (props: ProjectItem) => {
                     </a>
                 </div>
                 <div className="project-content--description">
-                    <p>{props.data.subtitle}</p>
+                    <div className="content-description--header">
+                        <h4>{props.data.title}</h4>
+                        <span>{props.data.subtitle}</span>
+                    </div>
                     <ul>
                         {props.data.used.map((i, k) =>
                             <li key={k}>{i}</li>
@@ -43,7 +46,7 @@ const Project = (props: ProjectItem) => {
                     </ul>
                     <div className="content-description--buttons">
                         <Button>Github</Button>
-                        <Button>Projeto</Button>
+                        <Button>Project</Button>
                     </div>
                 </div>
             </div>
