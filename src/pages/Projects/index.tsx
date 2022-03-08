@@ -2,6 +2,7 @@ import { Container } from 'react-bootstrap';
 import './style.css';
 import Project from '../../components/partials/Project';
 import { useEffect, useState } from 'react';
+import allProjectsList from '../../helpers/ProjectsList';
 
 const Projects = () => {
 	type Project = {
@@ -17,48 +18,7 @@ const Projects = () => {
 	const [projectList, setProjectList] = useState<Project[]>([]);
 
 	useEffect(()=>{
-		const pList = [
-			{
-				image : './images/olxclone.png',
-				title: 'OLX Clone B7',
-				subtitle: 'Bla bla bla bla bla bla bla bla bla bla bla',
-				used: ['React', 'Bootstrap', 'Typescript'],
-				socials: {
-					github: 'https://github.com/leonmolina/projeto-olx',
-					link: 'https://github.com/leonmolina/projeto-olx'
-				}
-			},
-			{
-				image : './images/olxclone.png',
-				title: 'OLX Clone B7',
-				subtitle: 'Bla bla bla bla bla bla bla bla bla bla bla',
-				used: ['React', 'Bootstrap'],
-				socials: {
-					github: 'https://github.com/leonmolina/projeto-olx',
-					link: 'https://github.com/leonmolina/projeto-olx'
-				}
-			},
-			{
-				image : './images/olxclone.png',
-				title: 'OLX Clone B7',
-				subtitle: 'Bla bla bla bla bla bla bla bla bla bla bla',
-				used: ['React', 'Bootstrap'],
-				socials: {
-					github: 'https://github.com/leonmolina/projeto-olx',
-					link: 'https://github.com/leonmolina/projeto-olx'
-				}
-			},
-			{
-				image : './images/olxclone.png',
-				title: 'OLX Clone B7',
-				subtitle: 'Bla bla bla bla bla bla bla bla bla bla bla',
-				used: ['React', 'Bootstrap'],
-				socials: {
-					github: 'https://github.com/leonmolina/projeto-olx',
-					link: 'https://github.com/leonmolina/projeto-olx'
-				}
-			}
-		];
+		const pList = allProjectsList;
 		setProjectList(pList);
 	}, [])
 

@@ -52,9 +52,9 @@
     justify-content: center;
     align-items: center;
 }
-.content-description--buttons button {
+.content-description--buttons a {
     width: 50%;
 }
-.content-description--buttons button:first-child {
+.content-description--buttons a:first-child {
     margin-right: 20px;
 }

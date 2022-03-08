@@ -45,8 +45,8 @@ const Project = (props: ProjectItem) => {
                         )}
                     </ul>
                     <div className="content-description--buttons">
-                        <Button>Github</Button>
-                        <Button>Project</Button>
+                        <a href={props.data.socials.github} target="_blank" className='btn btn-primary'>Github</a>
+                        <a href={props.data.socials.link} target="_blank" className='btn btn-primary'>Project</a>
                     </div>
                 </div>
             </div>
