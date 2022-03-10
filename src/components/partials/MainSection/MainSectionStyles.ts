@@ -37,6 +37,7 @@ export const MainSectionLeftSide = styled.div`
     text-decoration: none;
     font-size: 2rem;
     font-weight: 500;
+    margin: 0 20px;
 
     &:hover {
       color: rgb(42, 42, 194);

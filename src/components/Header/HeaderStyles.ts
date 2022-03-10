@@ -54,7 +54,7 @@ export const NavBarNav = styled.div`
   a {
     color: var(--text-primary) !important;
 
-    $:hover {
+    &:hover {
       color: rgb(42, 42, 194) !important;
       transition: all ease .5s;
     }
