@@ -1,9 +1,0 @@
-html {
-  font-size: 16px;
-}
-main, body, header, footer, html {
-  background-color: var(--background);
-}
-#root {
-  background-color: var(--background);
-}

@@ -1,9 +1,0 @@
-/* MAIN SECTION */
-.main-section--projects {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    color: var(--text-primary);
-}
