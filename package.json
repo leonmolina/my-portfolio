@@ -1,6 +1,7 @@
 {
   "name": "leon-portfolio",
   "private": true,
+  "base": "/my-portfolio/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
