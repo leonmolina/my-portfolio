@@ -100,7 +100,6 @@ export const MainSectionRightSide = styled.div`
 
   img {
     max-height: 400px;
-    border-radius: 200px;
 
     @media screen and (max-width: 1024px) {
       max-height: 300px;
