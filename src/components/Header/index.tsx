@@ -1,6 +1,8 @@
 import logo from './images/bw-logo.png';
 import * as H from './HeaderStyles'
 
+import { Link } from 'react-router-dom';
+
 const Header = () => {
 
   return (
@@ -8,14 +10,17 @@ const Header = () => {
       <H.NavBar>
         <H.Container>
           <H.NavBarBrand>
-            <a href="#main">
+          <Link to="/" className='nav-link'>
+            <img src={logo} alt="LM Logo" className='nav-logo--image' />
+          </Link>
+            {/* <a href="#main">
               <img src={logo} alt="LM Logo" className='nav-logo--image' />
-            </a>
+            </a> */}
           </H.NavBarBrand>
           <H.NavBarNav>
-            <a className='nav-link' href="#projects">Projects</a>
-            <a className='nav-link' href="#about">About</a>
-            <a className='nav-link' href="#contact">Contact</a>
+            <Link to="/projects" className='nav-link'>Projects</Link>
+            <Link to="/about" className='nav-link'>About</Link>
+            <Link to="/contact" className='nav-link'>Contact</Link>
           </H.NavBarNav>
         </H.Container>
       </H.NavBar>

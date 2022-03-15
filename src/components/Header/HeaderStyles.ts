@@ -49,16 +49,15 @@ export const NavBarNav = styled.div`
     font-weight: 500;
     font-size: 1.5rem;
     margin: 0 20px;
-  }
-
-  a {
     color: var(--text-primary) !important;
 
-    $:hover {
+    &:hover {
       color: rgb(42, 42, 194) !important;
       transition: all ease .5s;
     }
   }
+
+  
 
   @media (max-width: 1024px) {
     .nav-link {
