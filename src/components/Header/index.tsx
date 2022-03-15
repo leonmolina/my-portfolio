@@ -13,9 +13,6 @@ const Header = () => {
           <Link to="/" className='nav-link'>
             <img src={logo} alt="LM Logo" className='nav-logo--image' />
           </Link>
-            {/* <a href="#main">
-              <img src={logo} alt="LM Logo" className='nav-logo--image' />
-            </a> */}
           </H.NavBarBrand>
           <H.NavBarNav>
             <Link to="/projects" className='nav-link'>Projects</Link>
