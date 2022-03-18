@@ -1,7 +1,7 @@
 {
   "name": "leon-portfolio",
   "private": false,
-  "base": "/my-portfolio/",
+  "base": "/",
   "version": "0.0.0",
   "homepage": "https://leonmolina.github.io/",
   "scripts": {
