@@ -7,7 +7,6 @@ import { viteCommonjs } from '@originjs/vite-plugin-commonjs';
 export default defineConfig({
   plugins: [
     viteCommonjs(),
-    react(),
     macrosPlugin()
   ]
 })
