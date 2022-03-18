@@ -1,5 +1,5 @@
 import * as MS from './MainSectionStyles';
-import picture from './images/round-leon.png';
+import picture from '../../../../public/round-leon.png';
 
 const MainSection = () => {
 
