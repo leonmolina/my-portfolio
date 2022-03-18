@@ -1,8 +1,8 @@
 import * as M from './MainStyles';
-import MainSection from '../partials/MainSection';
-import ProjectsSection from '../partials/ProjectsSection';
+import MainSection from '../../components/partials/MainSection';
+import ProjectsSection from '../../components/partials/ProjectsSection';
 
-const Main = () => {
+const Home = () => {
 
     return (
       <main>
@@ -14,4 +14,4 @@ const Main = () => {
     );
   }
   
-  export default Main;
+  export default Home;
