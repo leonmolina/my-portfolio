@@ -1,11 +1,11 @@
 {
   "name": "leon-portfolio",
   "private": false,
-  "base": "https://leonmolina.github.io/",
+  "base": "/",
   "version": "0.0.0",
   "homepage": "https://leonmolina.github.io/",
   "scripts": {
-    "dev": "vite --port 3001",
+    "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
