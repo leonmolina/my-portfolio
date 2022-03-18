@@ -10,9 +10,9 @@ const Header = () => {
       <H.NavBar>
         <H.Container>
           <H.NavBarBrand>
-          <Link to="/" className='nav-link'>
-            <img src={logo} alt="LM Logo" className='nav-logo--image' />
-          </Link>
+            <Link to="/" className='nav-link'>
+              <img src={logo} alt="LM Logo" className='nav-logo--image' />
+            </Link>
           </H.NavBarBrand>
           <H.NavBarNav>
             <Link to="/projects" className='nav-link'>Projects</Link>
